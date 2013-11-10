@@ -1,0 +1,299 @@
+
+
+/**
+ * one line to give the program's name and an idea of what it does.
+ * Copyright (C) 2012 Urshulyak Yaroslav
+ *
+ * This program is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU General Public License
+ * as published by the Free Software Foundation; either version 2
+ * of the License, or (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR
+ */
+
+.mainFxmlClass {
+    -fx-font-family: "Segoe UI";
+    -fx-base:#3c3f41;
+    -fx-font-weight: bold;
+    -fx-font-size: 12;
+    -fx-text-fill: WHITE;
+    -fx-background-color:
+        #3c3f41;
+
+}
+
+.label {
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-text-fill: WHITE;
+
+}
+.label_label {
+    -fx-font-size: 14;
+    -fx-text-fill: BLACK;
+
+}
+.grid-pane * {
+    -fx-background-color: #0464e2;
+}
+.label_titel {
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 0,0,0,1 );
+    -fx-text-fill: WHITE;
+
+}
+.message-label {
+     -fx-font-size: 20;
+     -fx-font-weight: bold;
+     -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 0,0,0,2 );
+     -fx-text-fill:yellow;
+
+ }
+
+.message-label-scales {
+    -fx-font-size: 35;
+    -fx-font-weight: bold;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.6) , 6, 0.0 , 0 , 1 );
+    -fx-text-fill:#ffffff;
+
+}
+.message-label-scales-mini {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.6) , 6, 0.0 , 0 , 1 );
+    -fx-text-fill:#ffffff;
+
+}
+.message-label-scales-big {
+    -fx-font-size: 50;
+    -fx-font-weight: bold;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.6) , 6, 0.0 , 0 , 1 );
+    -fx-text-fill:#ffffff;
+
+}
+.message-label-scales-count {
+    -fx-font-size: 70;
+    -fx-font-weight: bold;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.6) , 6, 0.0 , 0 , 1 );
+    -fx-text-fill:#ffffff;
+
+}
+#message-label-scales-big-active {
+    -fx-font-size: 50;
+    -fx-font-weight: bold;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.6) , 6, 0.0 , 0 , 1 );
+    -fx-text-fill:#339afd;
+
+}
+.message-label-scales-active {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-fill:#339afd;
+
+}
+.message-label-black {
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+
+    -fx-text-fill:black;
+
+}
+.message-label-black_non_bold {
+    -fx-font-size: 12;
+    -fx-text-fill:black;
+
+}
+.red-text {
+    -fx-font-size: 40;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 0,0,0,1 );
+    -fx-text-fill: RED;
+
+}
+
+
+.Copyright {
+    -fx-text-fill:WHITE;
+    -fx-font-size: 8;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 0,0,0,1 );
+    -fx-font-weight: bold;
+}
+
+.tab *.tab-pane {
+    -fx-background-color: #0464e2;
+}
+
+
+.tab *.tab-label {
+    -fx-text-fill: black;
+
+}
+.tab:selected {
+    -fx-text-fill: black;
+
+    -fx-background-repeat: repeat;
+
+}
+.menu-bar:selected {
+    -fx-text-fill: black;
+    -fx-background-repeat: repeat;
+
+}
+#status-active {
+    -fx-background-color:
+    #1E90FF,
+    linear-gradient(to bottom, #70b6f2 0%, #1b64dc 100%);
+    -fx-background-repeat: repeat;
+
+}
+.redPane {
+    -fx-background-color:
+        #e70d00,
+        linear-gradient(to bottom, #ff1a00 0%, #ce0000 100%);
+    -fx-background-repeat: repeat;
+
+}
+
+#status{
+
+}
+
+
+.button {
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-text-fill: #ffffff;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.6) , 6, 0.0 , 0 , 1 );
+}
+.menu-item {
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 0,0,0,1 );
+
+
+}
+
+.menu .label {
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 0,0,0,1 );
+    -fx-text-fill: white;
+
+}
+
+
+
+.combo-box *.text {
+    -fx-text-fill: white;
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+}
+.check-box {
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 0,0,0,2 );
+    -fx-text-fill: WHITE;
+    -fx-font-weight: bold;
+}
+.text-field {
+
+}
+.text-input *.text-field {
+    -fx-font-size: 14;
+    -fx-font-weight: bold;
+    -fx-text-fill: BLACK;
+    -fx-border-color: #339afd;
+
+}
+.pane {
+    -fx-background-color: #0464e2;
+}
+
+.pane_style {
+     -fx-background-color: DODGERBLUE;
+     -fx-border-color: white;
+ }
+.pane_border {
+    -fx-background-color: #2b2b2b
+}
+
+.pane_style_label {
+    -fx-background-color: yellow;
+    -fx-border-color: white;
+}
+
+.pane_red {
+    -fx-background-color: red;
+    -fx-border-color: white;
+}
+.pane_green {
+    -fx-background-color: green;
+    -fx-border-color: white;
+}
+
+.toggle-button:pressed {
+
+    -fx-background-color: DODGERBLUE;
+
+}
+.pane-add {
+    -fx-background-color: black;
+}
+#tara-text {
+    -fx-font-size: 12;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 0,0,0,2 );
+    -fx-text-fill:yellow;
+}
+#lager-grid {
+
+    -fx-background-color: black;
+
+}
+#lager_visual_report_tab *.pane{
+    -fx-background-color: black;
+}
+
+.progress-indicator {
+    -fx-progress-color: green;
+}
+
+.progress-bar {
+    -fx-accent:DODGERBLUE;
+
+
+}
+
+.progress-indicator .percentage {
+    -fx-fill: null;
+}
+#progress_bar {
+    -fx-progress-color: DODGERBLUE;
+
+
+}
+#LABEL {
+    -fx-background-color:
+        #ebe23a,
+        linear-gradient(to bottom, #fbf474 0%, #dfd40d 100%);
+    -fx-background-insets: 0, 0 0 1 0;
+
+}
+.progress-indicator *.text{
+    -fx-font-size: 45;
+    -fx-font-weight: bold;
+    -fx-text-fill:#ffffff;
+}
+.red_border {
+    -fx-border-color: red;
+
+}
+
+.db_example {
+    -fx-font-size: 60;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.5) , 0,0,0,2 );
+    -fx-text-fill:red;
+}
